@@ -28,6 +28,19 @@ Transformar dados operacionais em informações gerenciais para apoiar decisões
 
 ---
 
+## Indicadores Monitorados
+
+✅ Faturamento diário, semanal e mensal  
+✅ Meta vs realizado  
+✅ Ticket médio por OS  
+✅ Ranking de clientes  
+✅ Clientes ativos  
+✅ Evolução por período  
+✅ Tendência de receita  
+✅ Performance operacional
+
+---
+
 ## Resultados Reais
 
 - Mais velocidade na tomada de decisão  
