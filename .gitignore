@@ -1,0 +1,48 @@
+# Ambiente
+.venv/
+venv/
+.env
+*.env
+rpa/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Dados financeiros e arquivos operacionais
+*.ofx
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.db
+*.sqlite
+*.sqlite3
+
+# Pastas locais com dados sensiveis
+01_EntradaOFX/
+02_Processado/
+03_Saidas/
+aprendizado/
+diagnostics/
+
+# Regras reais da operacao
+Regras/regras_auto.yaml
+Regras/regras_aprendidas_auto.yaml
+Regras/regras_manual.yaml
+
+# Artefatos de navegador/diagnostico
+*.png
+*.jpg
+*.jpeg
+*.html
+*.jsonl
+*.log
+
+# Permitir exemplos e documentacao publica
+!docs/prints/.gitkeep
+!Regras/regras_exemplo.yaml
